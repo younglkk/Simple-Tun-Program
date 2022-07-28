@@ -6,18 +6,18 @@ This program implement the basic feature for username/password authentication pr
 
 ## Compile
 ```
-$ gcc simpletun.c -o simpletun
+$ make
 ```
 
 ## Usage
 - Server side
 ```
-[server]$ ./simpletun -i tun13 -s
+[server]$ ./SimpleTunProgram -i tun13 -s
 ```
 > The username/passowrd info have been stored in the [config](ServerConfig.txt) file
 - Client side
 ```
-[client]$ ./simpletun -i tun0 -c <remote-server-ip>
+[client]$ ./SimpleTunProgram -i tun0 -c <remote-server-ip>
 ```
 > **tun13** and **tun0** must be replaced with the names of the actual tun interfaces used on the computers.
 
