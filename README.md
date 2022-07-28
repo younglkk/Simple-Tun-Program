@@ -23,6 +23,7 @@ $ make
 
 The server will ask client to log in (enter username and password), after receiving the client's username and password, the server will reponse the authentication result.
 
+## Changlog
 
 ### 2022/07/28
 Release 1st version.
